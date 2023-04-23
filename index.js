@@ -29,7 +29,7 @@ function characterSwitcher(clicked_id) {
    }
    
 }
-
+window.characterSwitcher = characterSwitcher
 
 function generatePasswords() {
         
@@ -46,5 +46,5 @@ function generatePasswords() {
         
 }
 
-
+window.generatePasswords = generatePasswords
 
