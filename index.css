@@ -1,0 +1,131 @@
+body {
+    margin: 0px 50px;
+    background: #1F2936;
+    padding: 0;
+    min-width: 800px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px; 
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: -2.5px;
+}
+
+.title {
+    margin: 100px 0px;
+    line-height: 20px;
+    text-align: left;
+   
+}
+
+#titleone {
+    color: #4ADF86;
+}
+
+#titletwo {
+    color: #FFFFFF;
+}
+
+#titlethree {
+    color: #D5D4D8;
+    font-size: 20px; 
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+}
+#gen-pass {
+    border: 0;
+    background: #10B981;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: #FFFFFF;
+}
+
+.char-container {
+    border: 0;
+    margin: 50px 0px 0px 0px ;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px; 
+    color: #D5D4D8;
+    padding: 0;
+}
+
+.char-child {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.char-button {
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    margin: 0px 5px;
+    font-size: 15px; 
+    font-weight: bold;
+    color: #10B981;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+#char-button2 {
+    background: #10B981;
+    color: #FFFFFF;
+}
+
+#char-text {
+    margin: 0px 10px;
+    font-size: 18px; 
+    font-weight: bold;
+}
+
+.generator {
+    font-family: 'Inter', sans-serif;
+    color: #55F991;
+    margin: 20px 0px 0px 0px;
+    border-top: 1px solid #2F3E53;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: 55F991;
+    text-align: center;
+    max-width: 575px;
+    padding: 40px 0px;
+}
+
+@media (max-width: 600px) {
+  .generator {
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+}
+
+#password-one {
+    
+    margin: 10px 0px;
+    background: #273549;
+    border-radius: 6px;
+    width: 260px;
+    height: 31px;
+    line-height: 31px;
+}
+
+#password-two {
+    margin: 10px 0px;
+    background: #273549;
+    border-radius: 6px;
+    width: 260px;
+    height: 31px;
+    line-height: 31px;
+    
+}
