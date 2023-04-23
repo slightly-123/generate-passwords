@@ -29,7 +29,14 @@ function characterSwitcher(clicked_id) {
    }
    
 }
-window.characterSwitcher = characterSwitcher
+
+char = document.getElementsByClassName("char-button")
+
+for (i = 0; i < char.length; i++) {
+    char[i].addEventListener('click', function () {
+    characterSwitcher(this.id)
+    })
+}
 
 function generatePasswords() {
         
@@ -46,5 +53,4 @@ function generatePasswords() {
         
 }
 
-window.generatePasswords = generatePasswords
-
+document.querySelector("#gen-pass").addEventListener('click', generatePasswords)
